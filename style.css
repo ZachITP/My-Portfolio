@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #CFB997;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #03001C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+ 
+  .topnav a.active {
+    background-color: #567189;
+    color: white;
+  }
+
+  /* Style the body */
+body {
+    font-family: Arial;
+    margin: 50;
+  }
+
+  
+  /* Header/Logo Title */
+  .header {
+    padding: 30px;
+    text-align:center;
+    background: #567189;
+    color: #03001C;
+    font-size: 50px;  
+  }
+    /*Zach head shot */
+  img {
+   float: left;
+    width: 200px;
+    padding: 30px;
+  }
+
+  p {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 150px;
+    margin-left: 150px;
+    
+  }
+  
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+  }
+  
+  
+  /* Sidebar/left column */
+  .side {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 20px; /* Some padding */
+  }
+  
+  /* Main column */
+  .main {
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+  }
+
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
