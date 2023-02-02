@@ -4,6 +4,7 @@
 
 #### Description
 A portfolio to document my projects
+<img src="./Assets/webpage.png" alt="webpage screenshot" title="Portfolio example">
 
 ## Technologies Used
 
@@ -16,7 +17,7 @@ A portfolio to document my projects
 ## Description
 This Project contains all my projects that I have done in this class so far. The goal is to document my progress along the way to showcase my skill level over the course of this class.
 
-<img src="/My-Portfolio/assets/webpage.png" alt="webpage screenshot" title="Portfolio example">
+
 
 
 
