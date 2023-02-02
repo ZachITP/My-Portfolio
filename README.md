@@ -18,11 +18,7 @@ A portfolio to document my projects
 This Project contains all my projects that I have done in this class so far. The goal is to document my progress along the way to showcase my skill level over the course of this class.
 
 
-<<<<<<< HEAD
 
-=======
-<img src="/My-Portfolio/assets/webpage.png" alt="webpage screenshot" title="Portfolio example">
->>>>>>> 79687739cbadfcd5d0e4c7b38565fe3f1782aea5
 
 
 ## Setup/Installation Requirements
