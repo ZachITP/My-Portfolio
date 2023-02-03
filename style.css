@@ -71,9 +71,9 @@ text-size-adjust: 50%;
 
 /* prework study guide image */
   .prework {
-    display: inline-block;  
+    display: inline-block;
     max-width: 100%;
-    margin-left: 20%;
+    margin-left: 35%;
     margin-right: auto;
     padding-bottom: 15px;
     padding-left: 15px;
@@ -88,14 +88,15 @@ text-size-adjust: 50%;
 
 /*Semantic HTML image styling*/
   .semantic {
-    display: inline-block;  
+    margin-left: 35%;
+    display: inline-block;
     max-width: 540px;
-    margin-left: auto;
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
     margin-bottom: 30px;
+    
 
   }
 
@@ -157,19 +158,24 @@ text-size-adjust: 50%;
       float: none;
       width: 100%;
     }
-  }
 
-  @media screen and (max-width: 400px) {
     .projects {
       float: none;
       width: 100%;
     }
+
+    .topnav a {
+      text-align: auto;
+      text-transform: auto;
+       
+     }
   }
 
-    @media screen and (max-width: 300px) {
-      .topnav a {
-     text-align: auto;
-     text-transform: auto;
+  @media screen and (max-width: 800px) {
+    .semantic {
       
     }
+
   }
+
+ 
