@@ -67,7 +67,9 @@ text-size-adjust: 50%;
     
   }
 
-  
+  .flex {
+   justify-content: center; 
+  }
 
 /* prework study guide image */
   .prework {
@@ -158,12 +160,10 @@ text-size-adjust: 50%;
       float: none;
       width: 100%;
     }
-
     .projects {
       float: none;
       width: 100%;
     }
-
     .topnav a {
       text-align: auto;
       text-transform: auto;
@@ -172,8 +172,8 @@ text-size-adjust: 50%;
   }
 
   @media screen and (max-width: 800px) {
-    .semantic {
-      
+    .flex {
+     justify-content: center; 
     }
 
   }
