@@ -29,10 +29,6 @@
     font-weight: 600;
   }
 
- 
-
-
-
 /* paragraph styling*/
   p {
 padding-left: 10%;
@@ -73,13 +69,12 @@ text-size-adjust: 50%;
 
 /* prework study guide image */
   .prework {
-    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
     max-width: 100%;
-    margin-left: 35%;
     margin-right: auto;
     padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 15px;
     margin-bottom: 30px;
   }
@@ -90,16 +85,17 @@ text-size-adjust: 50%;
 
 /*Semantic HTML image styling*/
   .semantic {
-    margin-left: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
     display: inline-block;
-    max-width: 540px;
+    max-width: 100%;
+    margin-right: auto;
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
     margin-bottom: 30px;
-    
-
   }
 
   .semantic:hover {
@@ -107,8 +103,6 @@ text-size-adjust: 50%;
   }
 
   
-    
-   
   /*Gray background styling for the Projects section */
   .side {
     background-color: #f1f1f1; 
@@ -145,8 +139,6 @@ text-size-adjust: 50%;
     color: white;
     font-weight: 600;
   }
-
-
   
     /* Responsive layout */
     @media screen and (max-width: 700px) {
